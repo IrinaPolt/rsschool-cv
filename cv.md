@@ -28,9 +28,12 @@ Experience
 
 My educational projects:
 
-* Foodgram [link] (https://github.com/IrinaPolt/Foodgram). 
+* Foodgram [link](https://github.com/IrinaPolt/Foodgram). The website for creating and saving recipes, following another users and downloading the shopping lists. Created the backend in Python, connected it to React frontend.
 
-* ...
+* Yamdb [link](https://github.com/IrinaPolt/api_yamdb/). The website collecting user reviews about movies, music and books. Worked in a team, was responsible for user roles and authorization.
+
+* Yatube [link](https://github.com/IrinaPolt/hw05_final/). The website for publishing blog posts. It has implemented such tasks as user authentication, caching, pagination.The project was covered with tests.
+
 <br />
 
 **Self-education projects:**
