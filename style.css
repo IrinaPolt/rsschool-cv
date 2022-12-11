@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(210, 61, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 30px;
+    color: rgb(236, 182, 145)
+}
