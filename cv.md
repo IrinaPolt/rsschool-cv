@@ -1,10 +1,13 @@
 Irina Poltarykhina
 ============
 
--------------------     ----------------------------
-Novokuznetsk            irina.poltarykhina@gmail.com
-Russia                  https://t.me/runawaytomars
--------------------     ----------------------------
+--------------------------------
+Novokuznetsk            
+Russia                  
+irina.poltarykhina@gmail.com <br />
+https://t.me/runawaytomars
+
+--------------------------------
 
 Education
 ---------
@@ -28,18 +31,25 @@ My educational projects:
 * Foodgram [link] (https://github.com/IrinaPolt/Foodgram). 
 
 * ...
+<br />
 
-**Self-education projects**
+**Self-education projects:**
 
 short description
 
+<br />
 
+**Programming Languages:**
 
-Programming Languages
-:   **first-lang:** Python
+* **first-lang:** Python
 
-:   **second-lang:** JavaScript
+* **second-lang:** JavaScript (coming)
 
+<br />
+
+**Other technologies:**
+
+Django, PostgreSQL, gunicorn, nginx, Yandex.Cloud (Ubuntu 22.04), Docker, Django Rest Framework, SQLite3, GIT, pytest
 
 Personal info
 ----------------------------------------
@@ -50,4 +60,5 @@ Personal info
      * English
      * German
 
+* Enjoy sci-fi and fantasy literature
 * Ready to relocate
