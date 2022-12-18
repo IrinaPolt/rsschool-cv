@@ -1,14 +1,114 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="css/style.css">
-  <title> My CV </title>
+  <link rel="icon" href="img/favicon-16x16.png">
+  <link rel="icon" href="img/favicon-32x32.png">
+  <link rel="icon" href="img/favicon-96x96.png">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> CV </title>
 </head>
 
 <body>
-  <div class="title"> Irina Poltarykhina </div>
-  <img src="img/avatar.png" alt="avatar">
+  <header class="header">
+    <div class="container header container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#technologies" class="nav-link">Technologies</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">Personal</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section section-profile" id="profile">
+        <img src="picture.jpg" alt="picture" class="section-profile-photo">
+        <div class="section-profile-title">
+          <h1 class="section-title main-title">Irina Poltarykhina</h1>
+          <h3 class="section-subtitle"> Junior Web Developer </h3>
+        </div>
+      </section>
+      <section class="section" id="contacts">
+          <h3 class="section-title">Contacts</h3>
+          <ul class="section-list">
+            <li class="section-item">
+              <strong>Location:</strong> Novokuznetsk, Russia (ready to relocate)
+            </li>
+            <li class="section-item contacts-item">
+              <strong>Email:</strong> <a href="mailto:irina.poltarykhina@gmail.com" title="email">irina.poltarykhina@gmail.com</a>
+            </li>
+            <li class="section-item contacts-item">
+              <strong>Github: </strong><a href="https://github.com/IrinaPolt" title="github">IrinaPolt</a>
+            </li>
+            <li class="section-item contacts-item">
+              <strong>Telegram: </strong><a href="https://t.me/runawaytomars" title="telegram">@runawaytomars</a>
+            </li>
+            <li class="section-item contacts-item">
+              <strong>Phone: </strong><a href="#" title="phone">+7 (960) 909-0113</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section section-education" id="education">
+        <h3 class="section-title">Education</h3>
+        <p> <strong>2021-2022</strong>: Python Developer, Yandex.Practicum </p>
+        <p> <strong>2018-2022</strong>: Master, International Relations. Saint-Petersburg State University</p>
+        <p> <strong>2014-2018</strong>: Bachelor, International Relations. Kemerovo State University</p>
+      </section>
+      <section class="section" id="technologies">
+        <h3 class="section-title">Technologies</h3>
+        <p><strong>Backend-development:</strong> Python, PostgreSQL</p>
+        <p><strong>Web-development:</strong> HTML5, CSS3, JS (coming)</p>
+        <p><strong>Frameworks and libraries:</strong> Django, DRF, React (coming)</p>
+        <p><strong>Version control:</strong> GIT, Github</span></p>
+        <p><strong> Graphics:</strong> Figma (coming) </p>
+        <p><strong> Other:</strong> nginx, Docker, etc. </p>
+      </section>
+      <section class="section" id="projects">
+        <h3 class="section-title">Projects within Python course (Yandex Practikum)</h3>
+        <ul class="section-list">
+          <li class="section-item">
+            <a href="https://github.com/IrinaPolt/Foodgram">Foodgram </a>
+          </li>          
+          <li class="section-item">
+            <a href="https://github.com/IrinaPolt/api_yamdb/">Yamdb</a>
+          </li>
+          <li class="section-item">
+            <a href="https://github.com/IrinaPolt/hw05_final/">Yatube</a>
+          </li>
+        </ul>
+      </section>
+      
+      <section class="section section-about" id="about">
+        <h3 class="section-title">Personal Info</h3>
+        <ul class="section-list">
+          <li class="section-item"> Languages:
+            <ul>
+              <li>
+                <p> Russian (native speaker) </p>
+              </li>
+              <li>
+                <p> English </p>
+              </li>
+              <li>
+                <p> German </p>
+              </li>
+            </ul>
+          </li>
+          <li class="section-item"> Enjoy sci-fi and fantasy </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div>© 2022 <a href="https://github.com/IrinaPolt" class="github nav-link">IrinaPolt</a></div>
+    <a href="https://rs.school/js-stage0/" class="rss"> Подготовительный курс «JavaScript/Front-end. Stage 0» </a>
+  </footer>
 </body>
-
 </html>
