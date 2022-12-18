@@ -3,7 +3,7 @@ Irina Poltarykhina
 
 --------------------------------
 Novokuznetsk            
-Russia                  
+Russia (ready to relocate)       
 irina.poltarykhina@gmail.com <br />
 https://t.me/runawaytomars
 
@@ -64,4 +64,3 @@ Personal info
      * German
 
 * Enjoy sci-fi and fantasy literature
-* Ready to relocate
